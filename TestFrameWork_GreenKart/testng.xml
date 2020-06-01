@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.example.Listeners">
+
+        </listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="TestFrameWork_GreenKart">
+        <classes>
+            <!--<class name="org.example.FetchData">
+                <methods>
+                    <include name="shouldAnswerWithTrue"/>
+                </methods>
+            </class>-->
+            <class name="org.example.HomePage">
+                <!--<methods>
+                    <include name="navigateToHomePage"/>
+                    <include name="addItemsToArray"/>
+                    <include name="addItemsToCart"/>
+                </methods>-->
+            </class>
+            <!--<class name="org.example.CheckOutPage">
+                &lt;!&ndash;<methods>
+                    <include name="applyPromo"/>
+                </methods>&ndash;&gt;
+            </class>-->
+
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-15T11:30:55Z" name="All Test Suite" finished-at="2020-05-15T11:31:04Z" duration-ms="9013">
+    <groups>
+    </groups>
+    <test started-at="2020-05-15T11:30:55Z" name="TestFrameWork_GreenKart" finished-at="2020-05-15T11:31:04Z" duration-ms="9013">
+      <class name="org.example.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:org.example.HomePage@59d2103b]" started-at="2020-05-15T11:30:52Z" name="initialize" finished-at="2020-05-15T11:30:55Z" duration-ms="2905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="navigateToHomePage(java.lang.String, [Ljava.lang.String;)[pri:0, instance:org.example.HomePage@59d2103b]" started-at="2020-05-15T11:30:56Z" name="navigateToHomePage" data-provider="getData" finished-at="2020-05-15T11:31:04Z" duration-ms="8284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestCase4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@25673087]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.HomePage@59d2103b]" started-at="2020-05-15T11:31:05Z" name="tearDown" finished-at="2020-05-15T11:31:10Z" duration-ms="5046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.HomePage -->
+    </test> <!-- TestFrameWork_GreenKart -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

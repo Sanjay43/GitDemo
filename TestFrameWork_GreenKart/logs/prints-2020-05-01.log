@@ -1,0 +1,6 @@
+10:57:56.704 [main] INFO  test.org.example.HomePage - Inside method navigateToHomePage()
+10:57:59.400 [main] INFO  test.org.example.HomePage - Home Page Displayed
+10:57:59.400 [main] INFO  test.org.example.HomePage - Exiting method navigateToHomePage()
+10:57:59.407 [main] INFO  test.org.example.HomePage - Inside method addItemsToArray()
+10:57:59.407 [main] INFO  test.org.example.HomePage - Exiting method addItemsToArray()
+10:57:59.408 [main] INFO  test.org.example.HomePage - Inside method addItemsToArray()

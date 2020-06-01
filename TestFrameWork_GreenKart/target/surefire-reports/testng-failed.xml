@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="org.example.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="TestFrameWork_GreenKart(failed)" verbose="0">
+    <classes>
+      <class name="org.example.HomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="navigateToHomePage"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- org.example.HomePage -->
+    </classes>
+  </test> <!-- TestFrameWork_GreenKart(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
